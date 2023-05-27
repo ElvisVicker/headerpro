@@ -1,3 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+html {
+    font-size: 10px;
+}
+
+.headerContainer {
+    display:  flex;
+    width: 100%;
+    height: 8rem;
+    padding: 2rem 10%;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerLogo {
+    width: auto;
+    height: 100%;
+}
+
+.listlink {
+    display: flex;
+    gap: 4rem;
+    font-size: 2.2rem;
+    text-decoration: none;
+}
+
+.listlink {
+    display: flex;
+    gap: 4rem;
+    font-size: 2.2rem;
   
+}
+
+.noLinkUnderline{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.google-map {
+    padding-bottom: 50%;
+    position: relative;
+  }
   
+  .google-map iframe {
+    height: 50%;
+    width: 50%;
+    left: 0;
+    top: 0;
+    position: absolute;
+  }
